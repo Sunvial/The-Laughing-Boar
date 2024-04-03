@@ -1,0 +1,90 @@
+body{
+    font-size: 16px;
+    background-color: #fffee5;
+    font-family: 'Kaushan Script', 'Rokkitt', 'Oswald', 'Libre Baskerville', sans-serif;
+}
+
+.banner{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner img{
+    max-width: 60%;
+}
+
+/* Content */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.flex-container h1{
+    font-weight: 100;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.container{
+    padding: 5px 15px;
+    margin: 8px;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+.container a:hover{
+    cursor: pointer;
+    color: #500d06;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+.container h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/* Content End */
+
+/* TABLES */
+
+table{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+thead th{
+    font-size: 2rem;
+}
+
+th{
+    font-weight: 700;
+}
+
+td{
+    font-size: 1.5rem;
+}
+/* END TABLES */
