@@ -12,11 +12,14 @@ body{
 .banner img{
     margin-top: 10%;
     max-width: 90%;
+<<<<<<< HEAD
 }
 
 .foot img{
     margin-bottom: 10vh;
     margin-top: 2%;
+=======
+>>>>>>> 791e06395bb626a5eca143c3b14a2ef0ea702af1
 }
 
 /* Content */
