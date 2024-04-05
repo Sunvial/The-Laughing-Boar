@@ -1,18 +1,22 @@
 body{
-    font-size: 16px;
     background-color: #fffee5;
     font-family: 'Kaushan Script', 'Rokkitt', 'Oswald', 'Libre Baskerville', sans-serif;
 }
 
 .banner{
-    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .banner img{
-    max-width: 60%;
+    margin-top: 10%;
+    max-width: 90%;
+}
+
+.foot img{
+    margin-bottom: 10vh;
+    margin-top: 2%;
 }
 
 /* Content */
@@ -21,7 +25,6 @@ body{
     flex-wrap: wrap;
     align-items: start;
     justify-content: center;
-    margin: 0 20%;
 }
 
 .flex-container h1{
@@ -30,26 +33,49 @@ body{
     margin-top: 30px;
     margin-bottom: 0px;
     text-align: center;
+    font-size: clamp(2.618rem, 6vh ,17.942rem);
+}
+
+.flex-container h2{
+    font-size: clamp(1.5rem, 4vh ,6.854rem);
 }
 
 .container{
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
     margin: 8px;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container img{
-    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 80vh;
+    max-width: 80vw;
 }
 
 .container a{
     text-decoration: none;
     color: black;
-    font-size: 3rem;
+    font-size: clamp(1rem, 3vh, 2.618rem);
 }
 
 .container a:hover{
     cursor: pointer;
-    color: #500d06;
+    color: #9c352a;
+}
+
+#navigation{
+    background-color: #fbf9d3;
+    border-radius: 15%;
+    padding: 6px;
+}
+
+#navigation:hover{
+    background-color: #e2e1c1;
 }
 
 h1,
@@ -58,13 +84,13 @@ h2{
 }
 
 .container h3{
-    font-size: 2rem;
+    font-size: clamp(12px,5vw,100px);
     margin-bottom: 0px;
     font-weight: 200;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: clamp(1rem,3vh,1.618rem);
 }
 
 /* Content End */
@@ -88,3 +114,13 @@ td{
     font-size: 1.5rem;
 }
 /* END TABLES */
+
+/* Media */
+
+@media only screen and (min-width: 1600px){
+    .flex-container{
+        margin: 0 20%;
+    }
+}
+
+/* End Media */
