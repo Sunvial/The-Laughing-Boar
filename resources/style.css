@@ -124,3 +124,12 @@ td{
 }
 
 /* End Media */
+
+/* Footer */
+
+footer img{
+    max-width: 90%;
+    height: auto;
+}
+
+/* End Footer */
