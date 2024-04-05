@@ -90,7 +90,7 @@ h2{
 }
 
 p{
-    font-size: clamp(1rem,3vh,1.618rem);
+    font-size: clamp(.5rem,3vh,1.618rem);
 }
 
 /* Content End */
