@@ -1,5 +1,7 @@
-let me = document.getElementByClass('h1');
+const heading = document.querySelector('h1');
 
-function changeTextColor {
-    
+function changeTextColor() {
+    heading.style.color = '#9c352a';
 }
+
+document.addEventListener('DOMContentLoaded', changeTextColor);
